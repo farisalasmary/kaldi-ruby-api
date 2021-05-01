@@ -27,4 +27,9 @@ For example, we take the file `SVD_Eigenfaces_CUT.mp4` from the `testing_data` f
 ```bash
 curl http://localhost:9999/api/file_path/SVD_Eigenfaces_CUT.mp4
 ```
-The result will be in JSON format
+The result will be in JSON format.
+
+**NOTE**: supported extensions are available in `config.rb` file. Currently, there is the following extensions:
+```ruby
+ALLOWED_EXTENSIONS = ['wav', 'mp3', 'ogg', 'mp4', 'flv']
+```
