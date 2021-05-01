@@ -1,0 +1,5 @@
+
+apt install ffmpeg
+
+gem install zappa
+gem install sinatra
