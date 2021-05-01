@@ -1,2 +1,2 @@
 # kaldi-ruby-api
-An API wrapper written in Ruby for Kaldi ASRs
+An example of using this repo is available in [English ASR website repo](https://github.com/farisalasmary/asr_website/).
