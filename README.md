@@ -29,7 +29,7 @@ curl http://localhost:9999/api/file_path/SVD_Eigenfaces_CUT.mp4
 ```
 The result will be in JSON format.
 
-**NOTE**: supported extensions are available in `config.rb` file. Currently, there is the following extensions:
+**NOTE**: supported extensions are available in `config.rb` file. Currently, there are the following extensions:
 ```ruby
 ALLOWED_EXTENSIONS = ['wav', 'mp3', 'ogg', 'mp4', 'flv']
 ```
